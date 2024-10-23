@@ -7,7 +7,7 @@ FROM Employees AS e
 JOIN Addresses AS a ON a.AddressID = e.AddressID
 ORDER BY a.AddressID ASC
 
---ZAD2
+--ZAD2 
 SELECT TOP 5 EmployeeId, FirstName, Salary, d.Name AS DepartmentName
 FROM Employees AS e
 JOIN Departments AS d ON d.DepartmentID = e.DepartmentID
